@@ -1,0 +1,6 @@
+./Allclean
+
+blockMesh
+icoFoam > log &
+cat log
+touch small_pipe_low_viscocity.foam
